@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image:url(dead-lift-gym.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    font-family: 'montserrat', sans-serif;
+    text-transform: uppercase; 
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+
+}
+
+#logo {
+    font-size: 2rem;
+}
+ 
+span {
+    color: yellow;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+ 
+#content {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.sub {
+    background-color: #000000;
+    color: yellow;
+    padding: 0.7rem;
+    text-transform: uppercase;
+    border: #fff solid .2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    transition: .3s;
+
+}
+
+.banner {
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat' sans-serif;
+    text-transform: uppercase;
+}
+
+.banner p {
+    font-size: 5rem;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+}
+
+.banner button {
+    background-color: yellow;
+    color: #000000;
+    font-style: bold;
+    font-size: 1rem;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+}
