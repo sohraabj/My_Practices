@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Id</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 62.5%;
+            /* 1rem = 16px 
+
+               16px = 100%
+               thats mean 
+               1px = 6.25%
+               10px = 62.5%
+               now 
+               1rem = 10px
+            */
+        }
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            width:60rem ;
+            height: 40rem;
+            /* background-color: rgb(57, 196, 227); */
+            background-image: url(image/pxfuel.jpg);
+            background-position: center;
+            background-size: cover;
+            /* display: flex;
+            justify-content: center; */
+            border-radius: 1.5%;
+            box-shadow: 10px 10px 8px rgb(26,88,173);      
+        }
+      
+        .head {
+            width: 96%;
+            height: 50%;
+            margin-top: 2%;
+            /* background-color: black; */
+            border-radius: 1.5%;
+            display: flex;
+            margin-left: 2%;
+            /* border: 6px solid rgb(18, 101, 119); */
+            
+
+        }
+        .left{
+            width: 50%;
+            height: 100%;
+            /* background-color: rgb(232, 30, 30); */
+            border-radius: 1.5%;
+        }
+        .right{
+            width: 50%;
+            height: 100%;
+            /* background-color: rgb(155, 249, 5); */
+            border-radius: 1.5%;
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: 600;
+            box-shadow: 10px 10px 8px rgb(26,88,173);
+            margin-left: 8%;
+        }
+        /* .right:hover{
+            transform: translate(-5px, 5px) scale(1.02);
+        } */
+        img { 
+            width: 100%;
+            height: 100%;
+            border-radius: 1.5%;
+            box-shadow: 10px 10px 8px rgb(26,88,173); 
+            /* opacity: ; */
+            /* filter: blur(0.4px); */
+            /* filter: brightness(1); */
+            /* filter: grayscale(7); */
+            /* object-fit: contain; */
+            
+        }
+        /* img:hover{
+            transform: translate(-5px, 5px) scale(1.02);
+        }   */
+        /* table, tr, td {
+            border: 0.1rem solid rgb(239, 15, 15);
+            border-radius: 1.5%;
+        } */
+        
+        .id-body{
+            width: 100%;
+            height: 46%; 
+            margin-top: 2%;
+            font-size: 2.5rem;
+            font-weight: bolder;
+            text-align: center;
+            text-transform: capitalize;
+            padding-top: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <div class="left">
+                <img src="image/myself.jpg" alt="">
+            </div>
+            <div class="right">
+               <table>
+                <tr>
+                    <td>Name-</td>
+                    <td>Sohrab B. Jahagirdar</td>
+                </tr>
+                <tr>
+                    <td>DOB-</td>
+                    <td>19-04-1997</td>
+                </tr>
+                <tr>
+                    <td>Email-</td>
+                    <td>Jahagirdar@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>PhNo.</td>
+                    <td>9876543210</td>
+                </tr>
+                <tr>
+                    <td>POS</td>
+                    <td>WebDev</td>
+                </tr>
+               </table>
+            </div>
+        </div>
+      <div class="id-body">
+           some basic information  <br>
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores minus velit at debitis nihil iure explicabo nesciunt aliquam suscipit temporibus?
+
+      </div>
+    </div>
+</body>
+</html>
